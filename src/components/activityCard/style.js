@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {Colors} from "../../theme";
 
-const {white, secondaryColor} = Colors;
+const {white, secondaryColor, lightGrey} = Colors;
 
 export const Container = styled.section`
   display: flex;
@@ -10,6 +10,7 @@ export const Container = styled.section`
   height: 70px;
   background-color: ${white};
   padding: 10px;
+  border-bottom: 1px solid ${lightGrey};
 
   .img {
     width: 50px;
