@@ -1,9 +1,10 @@
 import React from 'react';
+import {Title} from "./style";
 
 const Wallet = () => {
   return (
     <div>
-      <h2>Wallet</h2>
+      <Title>Wallet</Title>
     </div>
   )
 }

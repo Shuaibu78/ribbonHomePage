@@ -1,9 +1,10 @@
 import React from 'react';
+import {Title} from "./style";
 
 const Market = () => {
   return (
     <div>
-      <h2>Market</h2>
+      <Title>Market</Title>
     </div>
   )
 }

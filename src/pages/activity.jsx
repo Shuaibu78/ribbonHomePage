@@ -1,9 +1,10 @@
 import React from 'react';
+import {Title} from "./style";
 
 const Activity = () => {
   return (
     <div>
-      <h2>Activity</h2>
+      <Title>Activity</Title>
     </div>
   )
 }

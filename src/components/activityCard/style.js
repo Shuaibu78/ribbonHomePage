@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {Colors} from "../../theme";
 
-const {white, secondaryColor, lightGrey} = Colors;
+const {white, lightGrey} = Colors;
 
 export const Container = styled.section`
   display: flex;
